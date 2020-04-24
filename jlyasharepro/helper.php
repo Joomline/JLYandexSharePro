@@ -30,15 +30,14 @@ class PlgJLYaShareProHelper
         $scriptPage = <<<HTML
 		    <div class="jlYaSharesContayner">
 		        <div
-				    class="yashare-auto-init"
-				    data-yashareLink="{$this->link}"
-				    data-yashareTitle="{$this->title}"
-				    data-yashareDescription="{$this->desc}"
-				    data-yashareImage="{$this->image}"
-				    data-yashareQuickServices="{$this->quickServices}"
-				    data-yashareTheme="{$this->theme}"
-				    data-yashareType="{$this->type}"
-				    data-yashareL10n="{$this->lang}"
+				    class="ya-share2"
+				    data-url="{$this->link}"
+				    data-title="{$this->title}"
+				    data-description="{$this->desc}"
+				    data-image="{$this->image}"
+				    data-services="{$this->quickServices}"				    
+				    data-size="{$this->type}"
+				    data-lang="{$this->lang}"
 				    ></div>
 			</div>
 HTML;

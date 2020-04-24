@@ -59,7 +59,7 @@ class plgContentJlyasharepro extends JPlugin
             $article->catid = '';
         }
 
-        JFactory::getDocument()->addScript('//yandex.st/share/share.js');
+        JFactory::getDocument()->addScript('//yastatic.net/share2/share.js');
 
         $url = 'http://' . $this->params->get('pathbase', '') . str_replace('www.', '', $_SERVER['HTTP_HOST']);
 

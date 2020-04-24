@@ -11,7 +11,7 @@
         <version>1.3.0</version>
         <url>https://joomline.ru</url>
         <packager>JoomLine.ru</packager>
-        <description><![CDATA[Plugin allow integrate social buttons Yandex Share into your joomla site.<iframe frameborder='0' allowtransparency='true' scrolling='no' src='https://joomline.org/donatenewen.html' width='100%' height='700'>]]></description>
+        <description><![CDATA[Plugin allow integrate social buttons Yandex Share into your joomla site.<iframe frameborder='0' allowtransparency='true' scrolling='no' src='https://joomline.org/donatenewen.html?solution=JLYandexSharePRO' width='100%' height='700'>]]></description>
         <files>
                 <folder type="plugin" id="jlyasharepro" group="content" client="site">jlyasharepro</folder>
                 <folder type="plugin" id="yashareproads" group="adsmanagercontent" client="site">yashareproads</folder>

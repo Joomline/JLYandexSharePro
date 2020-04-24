@@ -40,55 +40,43 @@
                         >
                     <option value="blogger">Blogger</option>
                     <option value="delicious">Delicious</option>
-                    <option value="diary">Дневники</option>
                     <option value="digg">Digg</option>
                     <option value="evernote">Evernote</option>
                     <option value="facebook">Facebook</option>
-                    <option value="friendfeed">FriendFeed</option>
-                    <option value="gplus">Google+</option>
-                    <option value="juick">Juick</option>
-                    <option value="liveinternet">LiveInternet</option>
+                    <option value="lj">LiveInternet</option>
                     <option value="linkedin">LinkedIn</option>
                     <option value="lj">Живой Журнал</option>
                     <option value="moikrug">Мой Круг</option>
-                    <option value="moimir">Мой Мир</option>
-                    <option value="myspace">MySpace</option>
+                    <option value="moimir">Мой Мир</option>            
                     <option value="odnoklassniki">Одноклассники.ru</option>
                     <option value="pinterest">Pinterest</option>
+                    <option value="pocket">Pocket</option>
+                    <option value="qzone">Qzone</option>
+                    <option value="reddit">Reddit</option>
+                    <option value="renren">Renren</option>
+                    <option value="sinaWeibo">Sina Weibo</option>
+                    <option value="skype">Skype</option>
                     <option value="surfingbird">Surfingbird</option>
-                    <option value="tutby">Я тут!</option>
+                    <option value="telegram">Telegram</option>
+                    <option value="tencentWeibo">Tencent Weibo</option>
+                    <option value="tumblr">Tumblr</option>
                     <option value="twitter">Twitter</option>
+                    <option value="viber">Viber</option>
                     <option value="vkontakte">ВКонтакте</option>
-                    <option value="yaru">Я.Ру</option>
-                    <option value="yazakladki">Яндекс.Закладки</option>
+                    <option value="whatsapp">WhatsApp</option>
+                    <option value="collections">Яндекс.Коллекции</option>
                 </field>
 
-
-                <field
-                        name="theme"
-                        type="list"
-                        default="default"
-                        label="PLG_JLYASHAREPRO_THEME"
-                        description="PLG_JLYASHAREPRO_THEME_DESC"
-                        >
-                    <option value="default">PLG_JLYASHAREPRO_THEME_DEFAULT</option>
-                    <option value="dark">PLG_JLYASHAREPRO_THEME_DARK</option>
-                    <option value="counter">PLG_JLYASHAREPRO_THEME_COUNTER</option>
-                </field>
 
                 <field
                         name="type"
                         type="list"
-                        default="button"
+                        default="m"
                         label="PLG_JLYASHAREPRO_TYPE"
                         description="PLG_JLYASHAREPRO_TYPE_DESC"
-                        >
-                    <option value="button">PLG_JLYASHAREPRO_TYPE_BUTTON</option>
-                    <option value="link">PLG_JLYASHAREPRO_TYPE_LINK</option>
-                    <option value="icon">PLG_JLYASHAREPRO_TYPE_ICON</option>
-                    <option value="small">PLG_JLYASHAREPRO_TYPE_SMALL</option>
-                    <option value="big">PLG_JLYASHAREPRO_TYPE_BIG</option>
-                    <option value="none">PLG_JLYASHAREPRO_TYPE_NONE</option>
+                        >  
+                    <option value="s">PLG_JLYASHAREPRO_TYPE_SMALL</option>
+                    <option value="m">PLG_JLYASHAREPRO_TYPE_BIG</option>
                 </field>
 
             </fieldset>
@@ -104,16 +92,7 @@
                     <option value="0">PLG_JLYASHAREPRO_NO</option>
                     <option value="1">PLG_JLYASHAREPRO_YES</option>
                 </field>
-                <field
-                        name="position_content"
-                        type="radio"
-                        default="0"
-                        label="PLG_JLYASHAREPRO_POSITION_LABEL"
-                        description="PLG_JLYASHAREPRO_POSITION_DESC"
-                        >
-                    <option value="0">PLG_JLYASHAREPRO_LEFT</option>
-                    <option value="1">PLG_JLYASHAREPRO_RIGHT</option>
-                </field>
+
                 <field
                         name="shares_position"
                         type="list"
