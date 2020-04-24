@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="2.5" method="upgrade">
+        <name>JL Yandex Share PRO</name>
+        <packagename>jlyasharepro</packagename>
+        <author>JoomLine</author>
+        <creationDate>24.04.2020</creationDate>
+        <copyright>(C) 2014-2020 Arkadiy Sedelnikov, JoomLine (https://joomline.ru)</copyright>
+        <license>GNU/GPL: http://www.gnu.org/copyleft/gpl.html</license>
+        <authorEmail>sale@joomline.ru</authorEmail>
+        <authorUrl>https://joomline.ru</authorUrl>
+        <version>1.3.0</version>
+        <url>https://joomline.ru</url>
+        <packager>JoomLine.ru</packager>
+        <description><![CDATA[Plugin allow integrate social buttons Yandex Share into your joomla site.<iframe frameborder='0' allowtransparency='true' scrolling='no' src='https://joomline.org/donatenewen.html' width='100%' height='700'>]]></description>
+        <files>
+                <folder type="plugin" id="jlyasharepro" group="content" client="site">jlyasharepro</folder>
+                <folder type="plugin" id="yashareproads" group="adsmanagercontent" client="site">yashareproads</folder>
+                <folder type="plugin" id="jlyashareprojshop" group="jshoppingproducts" client="site">jlyashareprojshop</folder>
+                <folder type="plugin" id="jlyashareprok2" group="k2" client="site">jlyashareprok2</folder>
+        </files>
+        <updateservers>
+		<server type="extension" priority="1" name="JL Sitemap">
+			https://joomline.net/update.html?extension_id=94.xml
+		</server>
+	</updateservers>
+       
+</extension>

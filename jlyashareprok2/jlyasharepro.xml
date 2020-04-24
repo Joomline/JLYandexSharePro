@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="k2" method="upgrade">
+	<name>JoomLine Yandex Share K2 Plugin</name>
+	<author>Arkadiy, Joomline</author>
+	<creationDate>24.04.2020</creationDate>
+	<copyright>(C) 2014-2020 Arkadiy Sedelnikov, JoomLine (https://joomline.ru)</copyright>
+	<authorEmail>a.sedelnikov@gmail.com</authorEmail>
+	<authorUrl>argens.ru</authorUrl>
+	<version>1.3.0</version>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>An JoomLine Yandex Share K2 plugin to extend item form in K2.</description>
+	<files>
+		<filename plugin="jlyasharepro">jlyasharepro.php</filename>
+	</files>
+</extension>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<element type="jlyashareprozooel" group="Social">
+	<name>JL Yandex Share PRO Zoo Element</name>
+	<author>JoomLine</author>
+	<creationDate>17.2014</creationDate>
+	<copyright>(C) 2014-2020 Arkadiy Sedelnikov, JoomLine (https://joomline.ru)</copyright>
+	<authorEmail>sale@joomline.ru</authorEmail>
+	<authorUrl>https://joomline.ru</authorUrl>
+	<version>1.3.0</version>
+	<description>Plugin allow integrate social buttons like into your ZOO components</description>
+	<params>
+        <param
+                name="img_field"
+                type="text"
+                default=""
+                label="Image Field ID"
+                description="Image Field ID. If you chose Image Source -> Field"
+                />
+        <param
+                name="intro_field"
+                type="text"
+                default=""
+                label="Intro Text ID"
+                description="Intro Text Field ID. If you chose Image Source -> Text"
+                />
+        <param
+                name="text_field"
+                type="text"
+                default=""
+                label="Text ID"
+                description="Text Field ID. If you chose Image Source -> Text"
+                />
+	</params>
+    <params group="render">
+        <param name="default" type="radio" default="1" label="Enabled By Default" description="Enabled by default">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </param>
+    </params>
+</element>
